@@ -34,5 +34,4 @@ object DataService {
         Product ("Devslopes shirt Red", "$22", "shirt4"),
         Product ("Devslopes black shirt", "$32", "shirt5")
     )
-    
 }
