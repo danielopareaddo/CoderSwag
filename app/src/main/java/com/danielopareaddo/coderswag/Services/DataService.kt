@@ -5,7 +5,7 @@ import com.danielopareaddo.coderswag.Model.Product
 
 object DataService {
 
-    val category = listOf(
+    val categories = listOf(
         Category ("SHIRTS", "shirtimage"),
         Category ("HOODIES", "hoodieimage"),
         Category ("HATS", "hatimage"),
@@ -27,7 +27,7 @@ object DataService {
         Product ("Devslopes Hat Snapback", "$22", "hat4")
     )
 
-    val hoodie = listOf(
+    val hoodies = listOf(
 
         Product ("Devslopes Grey Hoodie", "$28", "hoodie1"),
         Product ("Devslopes Hoodie Red", "$32", "hoodie2"),
@@ -35,11 +35,23 @@ object DataService {
         Product ("Devslopes Hoodie Red", "$32", "hoodie4")
     )
 
-    val shirt = listOf(
+    val shirts = listOf(
         Product ("Devslopes Grey shirt", "$18", "shirt1"),
         Product ("Devslopes shirt Red", "$20", "shirt2"),
         Product ("Devslopes Grey shirt", "$28", "shirt3"),
         Product ("Devslopes shirt Red", "$22", "shirt4"),
         Product ("Devslopes black shirt", "$32", "shirt5")
     )
+
+    val digitalGoods = listOf<Product>()
+
+    fun getProducts(category: String): List<Product>{
+        return when (category){
+
+            "SHIRTS" -> shirts
+            "HATS" -> hats
+            "HOODIES" -> hoodies
+            else -> digitalGoods
+        }
+    }
 }
