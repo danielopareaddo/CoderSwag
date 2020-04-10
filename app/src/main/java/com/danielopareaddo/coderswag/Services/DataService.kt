@@ -21,52 +21,52 @@ object DataService {
     )
 
     val hats = listOf(
-        Product ("Devslopes Graphic Beanie", "$18", "hat1"),
-        Product ("Devslopes Hat Black", "$20", "hat2"),
-        Product ("Devslopes Hat White", "$18", "hat3"),
-        Product ("Devslopes Hat Snapback", "$22", "hat4"),
-        Product ("Devslopes Graphic Beanie", "$18", "hat1"),
-        Product ("Devslopes Hat Black", "$20", "hat2"),
-        Product ("Devslopes Hat White", "$18", "hat3"),
-        Product ("Devslopes Hat Snapback", "$22", "hat4"),
-        Product ("Devslopes Graphic Beanie", "$18", "hat1"),
-        Product ("Devslopes Hat Black", "$20", "hat2"),
-        Product ("Devslopes Hat White", "$18", "hat3"),
-        Product ("Devslopes Hat Snapback", "$22", "hat4")
+        Product ("Devslopes Graphic Beanie", "$18", "hat1","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat Black", "$20", "hat2","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat White", "$18", "hat3","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat Snapback", "$22", "hat4","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Graphic Beanie", "$18", "hat1","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat Black", "$20", "hat2","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat White", "$18", "hat3","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat Snapback", "$22", "hat4","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Graphic Beanie", "$18", "hat1","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat Black", "$20", "hat2","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat White", "$18", "hat3","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform."),
+        Product ("Devslopes Hat Snapback", "$22", "hat4","a shaped covering for the head worn for warmth, as a fashion item, or as part of a uniform.")
     )
 
     val hoodies = listOf(
 
-        Product ("Devslopes Grey Hoodie", "$28", "hoodie1"),
-        Product ("Devslopes Hoodie Red", "$32", "hoodie2"),
-        Product ("Devslopes Grey Hoodie", "$28", "hoodie3"),
-        Product ("Devslopes Hoodie Red", "$32", "hoodie4"),
-        Product ("Devslopes Grey Hoodie", "$28", "hoodie1"),
-        Product ("Devslopes Hoodie Red", "$32", "hoodie2"),
-        Product ("Devslopes Grey Hoodie", "$28", "hoodie3"),
-        Product ("Devslopes Hoodie Red", "$32", "hoodie4"),
-        Product ("Devslopes Grey Hoodie", "$28", "hoodie1"),
-        Product ("Devslopes Hoodie Red", "$32", "hoodie2"),
-        Product ("Devslopes Grey Hoodie", "$28", "hoodie3"),
-        Product ("Devslopes Hoodie Red", "$32", "hoodie4")
+        Product ("Devslopes Grey Hoodie", "$28", "hoodie1","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Hoodie Red", "$32", "hoodie2","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Grey Hoodie", "$28", "hoodie3","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Hoodie Red", "$32", "hoodie4","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Grey Hoodie", "$28", "hoodie1","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Hoodie Red", "$32", "hoodie2","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Grey Hoodie", "$28", "hoodie3","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Hoodie Red", "$32", "hoodie4","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Grey Hoodie", "$28", "hoodie1","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Hoodie Red", "$32", "hoodie2","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Grey Hoodie", "$28", "hoodie3","a hooded sweatshirt, jacket, or other top."),
+        Product ("Devslopes Hoodie Red", "$32", "hoodie4","a hooded sweatshirt, jacket, or other top.")
     )
 
     val shirts = listOf(
-        Product ("Devslopes Grey shirt", "$18", "shirt1"),
-        Product ("Devslopes shirt Red", "$20", "shirt2"),
-        Product ("Devslopes Grey shirt", "$28", "shirt3"),
-        Product ("Devslopes shirt Red", "$22", "shirt4"),
-        Product ("Devslopes black shirt", "$32", "shirt5"),
-        Product ("Devslopes Grey shirt", "$18", "shirt1"),
-        Product ("Devslopes shirt Red", "$20", "shirt2"),
-        Product ("Devslopes Grey shirt", "$28", "shirt3"),
-        Product ("Devslopes shirt Red", "$22", "shirt4"),
-        Product ("Devslopes black shirt", "$32", "shirt5"),
-        Product ("Devslopes Grey shirt", "$18", "shirt1"),
-        Product ("Devslopes shirt Red", "$20", "shirt2"),
-        Product ("Devslopes Grey shirt", "$28", "shirt3"),
-        Product ("Devslopes shirt Red", "$22", "shirt4"),
-        Product ("Devslopes black shirt", "$32", "shirt5")
+        Product ("Devslopes Grey shirt", "$18", "shirt1" ,"a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes shirt Red", "$20", "shirt2","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes Grey shirt", "$28", "shirt3","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes shirt Red", "$22", "shirt4","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes black shirt", "$32", "shirt5","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes Grey shirt", "$18", "shirt1","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes shirt Red", "$20", "shirt2","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes Grey shirt", "$28", "shirt3","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes shirt Red", "$22", "shirt4","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes black shirt", "$32", "shirt5","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes Grey shirt", "$18", "shirt1","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes shirt Red", "$20", "shirt2","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes Grey shirt", "$28", "shirt3","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes shirt Red", "$22", "shirt4","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat."),
+        Product ("Devslopes black shirt", "$32", "shirt5","a short-sleeved casual top, generally made of cotton, having the shape of a T when spread out flat.")
     )
 
     val digitalGoods = listOf<Product>()
